@@ -8,7 +8,7 @@
     "url": "https://github.com/Paprikatto/create-cpp-class"
   },
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Other"
@@ -43,7 +43,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
-    "@types/vscode": "^1.99.0",
+    "@types/vscode": "^1.70.0",
     "@typescript-eslint/eslint-plugin": "^8.28.0",
     "@typescript-eslint/parser": "^8.28.0",
     "@vscode/test-cli": "^0.0.10",
