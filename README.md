@@ -1,20 +1,35 @@
-# create-cpp-class README
+# Create C++ Class
 
-This is the README for your extension "create-cpp-class". After writing up a brief description, we recommend including the following sections.
+A Visual Studio Code extension that helps you quickly create new C++ classes with header and implementation files.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Create new C++ classes with a single command
+- Generates both header (.hpp) and implementation (.cpp) files
+- Available through command palette or context menu
+- Automatically creates include and src directories if they don't exist
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Using Command Palette:
+   - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS)
+   - Type "Create C++ Class" and select it
+   - Enter the class name when prompted
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+2. Using Context Menu:
+   - Right-click on any folder in the explorer
+   - Select "Create C++ Class"
+   - Enter the class name when prompted
+
+## Generated Files
+
+The extension will create:
+- A header file (`ClassName.hpp`) with the class declaration
+- An implementation file (`ClassName.cpp`) with constructor and destructor implementations
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code version 1.99.0 or higher
 
 ## Extension Settings
 
