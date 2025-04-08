@@ -14,10 +14,19 @@
   "contributes": {
     "commands": [
       {
-        "command": "create-cpp-class.helloWorld",
-        "title": "Hello World"
+        "command": "create-cpp-class.createClass",
+        "title": "Create C++ Class"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "create-cpp-class.createClass",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
